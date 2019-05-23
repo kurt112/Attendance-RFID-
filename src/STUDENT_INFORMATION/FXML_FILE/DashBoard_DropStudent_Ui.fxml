@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.ToggleGroup?>
+<VBox prefHeight="416.0" prefWidth="772.0" style="-fx-background-color: transparent;" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="STUDENT_INFORMATION.CONTROLLER.DashBoard_StudentList_Controller">
+    <children>
+        <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="732.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="List of all Student in Balanti Elementary School" HBox.hgrow="NEVER">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets right="10.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField disable="true" prefHeight="25.0" prefWidth="2.0" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets right="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <JFXTextField prefHeight="25.0" prefWidth="166.0" promptText="Search Student" unFocusColor="BLACK" HBox.hgrow="NEVER">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </JFXTextField>
+            </children>
+            <VBox.margin>
+                <Insets left="20.0" right="20.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="772.0">
+            <children>
+
+                <fx:define>
+                    <ToggleGroup fx:id="status" />
+                </fx:define>
+
+                <JFXRadioButton text="Present">
+                    <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="12.0" />
+                    </font>
+
+
+                </JFXRadioButton>
+
+                <JFXRadioButton text="Absent">
+                    <HBox.margin>
+                        <Insets right="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="12.0" />
+                    </font>
+
+                </JFXRadioButton>
+
+<!--                <JFXDatePicker />-->
+
+                <TextField editable="false" mouseTransparent="true" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                    </HBox.margin></TextField>
+                <JFXButton prefHeight="32.0" prefWidth="128.0" style="-fx-background-color: #0a6fc2;" text="Refresh" textFill="WHITE">
+                    <HBox.margin>
+                        <Insets right="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="13.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </HBox>
+        <HBox VBox.vgrow="ALWAYS">
+            <children>
+                <TableView prefHeight="200.0" prefWidth="772.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="First Name" />
+                        <TableColumn prefWidth="75.0" text="Last Name" />
+                        <TableColumn prefWidth="75.0" text="Grade" />
+                        <TableColumn prefWidth="75.0" text="Section" />
+                        <TableColumn prefWidth="75.0" text="Adviser" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+            </children>
+        </HBox>
+    </children>
+</VBox>

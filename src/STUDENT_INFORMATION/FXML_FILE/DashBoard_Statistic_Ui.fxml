@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox style="-fx-background-color: transparent;" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="STUDENT_INFORMATION.CONTROLLER.DashBoard_Statistic_Controller">
+    <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="732.0">
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+        </VBox.margin>
+        <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistic of Student in Balanti Elementary School" HBox.hgrow="NEVER">
+                <font>
+                    <Font name="System Bold" size="20.0" />
+                </font>
+                <HBox.margin>
+                    <Insets right="10.0" />
+                </HBox.margin>
+            </Text>
+            <TextField disable="true" prefHeight="25.0" prefWidth="2.0" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+                <HBox.margin>
+                    <Insets right="10.0" />
+                </HBox.margin>
+            </TextField>
+            <JFXTextField focusColor="WHITE" prefHeight="25.0" prefWidth="166.0" promptText="Search" unFocusColor="BLACK" HBox.hgrow="NEVER">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+            </JFXTextField>
+        </children>
+    </HBox>
+    <HBox fx:id="Hbox1" prefHeight="38.0" prefWidth="692.0" VBox.vgrow="ALWAYS">
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+        </VBox.margin>
+        <children>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nursery">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kinder">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Prep">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+            </HBox>
+        </children>
+    </HBox>
+    <HBox fx:id="Hbox2" prefHeight="38.0" prefWidth="692.0" VBox.vgrow="ALWAYS">
+        <children>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Grade 1">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Grade 2">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Grade 3">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+            </HBox>
+        </children>
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+        </VBox.margin>
+    </HBox>
+    <HBox fx:id="Hbox3" prefHeight="38.0" prefWidth="692.0" VBox.vgrow="ALWAYS">
+        <children>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Grade 4">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Grade 5">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+                <HBox.margin>
+                    <Insets right="20.0" />
+                </HBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="127.0" prefWidth="193.0" style="-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0), 6.0, 0.1, 0.0,1.5);" HBox.hgrow="ALWAYS">
+                <children>
+                    <StackPane>
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                        <children>
+                            <Circle fill="WHITE" radius="49.0" stroke="BLUE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 180;" />
+                            <Text stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+                        </children>
+                    </StackPane>
+                    <VBox alignment="CENTER" prefHeight="127.0" prefWidth="75.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Grade 6">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+                                <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets />
+                                </VBox.margin>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="500 /">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                            <Text fill="#0000008d" strokeType="OUTSIDE" strokeWidth="0.0" text="2000">
+                                <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </VBox>
+                </children>
+            </HBox>
+        </children>
+        <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+        </VBox.margin>
+    </HBox>
+</VBox>

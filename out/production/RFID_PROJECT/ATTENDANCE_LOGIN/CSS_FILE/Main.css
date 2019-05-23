@@ -1,0 +1,29 @@
+/*#parent{*/
+/*    -fx-background-image: url("../PICTURE/background.jpg");*/
+/*    -fx-background-repeat: stretch;*/
+/*    -fx-background-size: 900 506;*/
+/*    -fx-background-position: center center;*/
+/*    !*-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);*!*/
+/*}*/
+
+#text{
+    -fx-text-fill:red;
+    -fx-background-color: transparent;
+}
+
+.Imageview{
+    -fx-fit-to-height: 100%;
+    -fx-fit-to-width: 100%;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+    -fx-background-color: red;
+}
+Image{
+    -fx-background-size: 100px;
+    -fx-pref-height: 100px;
+    -fx-pref-width: 50%;
+}
+Button{
+    -fx-pref-width: 110%;
+    -fx-pref-height: 100%;
+}

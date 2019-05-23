@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="MainParent" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="STUDENT_INFORMATION.FXML_FILE.DashBoard_Controller">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <left>
+        <VBox alignment="CENTER_LEFT" prefHeight="515.0" prefWidth="198.0" style="-fx-background-color: rgb(68, 108, 179);" BorderPane.alignment="CENTER" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox fx:id="Vbox_Right" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="97.0" prefWidth="198.0" style="-fx-background-color: rgb(68, 108, 179);" VBox.vgrow="NEVER">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <children>
+                        <Label text="Balanti Elemtary" textFill="WHITE">
+                            <font>
+                                <Font name="Arial Black" size="21.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="School" textFill="WHITE">
+                            <font>
+                                <Font name="Arial Black" size="21.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#Home_Entered" onMouseExited="#Home_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="Home_Button" onMouseClicked="#Goto_Home" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="Home_ID" prefHeight="26.0" prefWidth="155.0" style="-fx-text-fill: black;" text="Home" textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#Attendance_MouseEntered" onMouseExited="#Attendance_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <Pane fx:id="Attendance_Button" onMouseClicked="#Goto_Attendance" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                    <Label fx:id="Attendance_ID" prefHeight="26.0" prefWidth="155.0" style="-fx-text-fill: black;" text="Attendance">
+                        <font>
+                            <Font name="Arial Bold" size="22.0" />
+                        </font>
+                        <HBox.margin>
+                            <Insets left="10.0" />
+                        </HBox.margin>
+                    </Label>
+
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#StudentList_MouseEntered" onMouseExited="#StudentList_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="StudentList_Button" onMouseClicked="#Goto_StudentList" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="StudentList_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Student List">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#Register_MouseEntered" onMouseExited="#Register_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="Register_Button" onMouseClicked="#Goto_Register" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="Register_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Register">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#DropStudent_MouseEntered" onMouseExited="#DropStudent_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="DropStudent_Button" onMouseClicked="#Goto_DropStudent" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="DropStudent_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Drop Student">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#SendSms_MouseEntered" onMouseExited="#SendSms_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="SendSms_Button" onMouseClicked="#Goto_SendSms" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="SendSms_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Send Sms">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#Messages_MouseEntered" onMouseExited="#Messages_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="Messages_Button" onMouseClicked="#Goto_Messages" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="Messages_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Messages">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+            <HBox alignment="CENTER_LEFT" onMouseEntered="#FeedBack_MouseEntered" onMouseExited="#FeedBack_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Pane fx:id="FeedBack_Button" onMouseClicked="#Goto_FeedBack" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                  <Label fx:id="FeedBack_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Feed Back">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" />
+               </VBox.margin>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </HBox>
+                <HBox alignment="CENTER_LEFT" onMouseEntered="#Logout_MouseEntered" onMouseExited="#Logout_MouseExited" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane fx:id="Logout_Button" onMouseClicked="#Goto_Logout" prefHeight="43.0" prefWidth="33.0" style="-fx-background-color: #0652DD;" />
+                        <Label fx:id="Logout_ID" prefWidth="155.0" style="-fx-text-fill: black;" text="Logout">
+                            <font>
+                                <Font name="Arial Bold" size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" />
+               </effect>
+                </HBox>
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </VBox>
+    </left>
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+
+            <HBox alignment="CENTER_RIGHT" prefHeight="0.0" prefWidth="732.0" style="-fx-background-color: rgb(68, 108, 179);">
+                <TextField prefHeight="32.0" prefWidth="302.0" style="-fx-border-radius: 20;" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                    </HBox.margin>
+                </TextField>
+                <JFXButton prefHeight="29.0" prefWidth="100.0" style="-fx-background-color: #5cb85c;" text="Search" textFill="WHITE" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets right="10.0" />
+                    </HBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+                </JFXButton>
+                <ImageView fitHeight="97.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../ATTENDANCE_LOGIN/PICTURE/hair.jpg" />
+                    </image>
+                    <HBox.margin>
+                        <Insets right="10.0" top="5.0" />
+                    </HBox.margin>
+                </ImageView>
+                <VBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="170.0">
+                    <children>
+                  <HBox VBox.vgrow="NEVER">
+                     <children>
+      
+                              <Label prefHeight="30.0" prefWidth="236.0" style="-fx-text-fill: white;" text="Kurt Lupin Orioque" HBox.hgrow="ALWAYS">
+                                  <font>
+                                      <Font name="Arial Black" size="14.0" />
+                                  </font>
+                              </Label>
+                     </children>
+                  </HBox>
+                        <Text fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-fill: white;" text="User">
+                            <font>
+                                <Font name="Arial Black" size="14.0" />
+                            </font>
+                        </Text>
+                    </children>
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </VBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="71.0" prefWidth="0.0" />
+
+                <VBox.margin>
+                    <Insets />
+                </VBox.margin>
+            <padding>
+               <Insets left="20.0" />
+            </padding>
+            </HBox>
+            <HBox prefHeight="437.0" prefWidth="732.0" style="-fx-background-color: rgb(68, 108, 179);" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                <children>
+                    <VBox fx:id="Vbox_Change" alignment="CENTER" prefHeight="436.0" prefWidth="712.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                        <HBox.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </HBox.margin>
+                    </VBox>
+                </children>
+                <VBox.margin>
+                    <Insets />
+                </VBox.margin>
+            </HBox>
+
+        </VBox>
+    </center>
+</BorderPane>

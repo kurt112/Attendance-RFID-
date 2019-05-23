@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Can't add the Gsm Connect to Ui interface">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/CONTROLLER_FILE/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Attendance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_School_Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_DropStudent_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Feedback_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Messages_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_RegisterStudent_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_SendSms_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Statistic_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_StudentAttendance_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_StudentList_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_DropStudent_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_RegisterStudent_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_SendSms_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Statistic_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentAttendance_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentList_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_FeedBack_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_Messages_Ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STUDENT_INFORMATION/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1286b5dc-6bbf-4eca-8a45-ead6b1eae043.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RFID_PROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RFID_PROJECT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RFID_PROJECT/sample/DATABASE/Student_Db.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RFID_PROJECT/sample/DATABASE/Student_Db.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CONTROLLER_FILE/timein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/CONTROLLER_FILE/timein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CSS_FILE/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/CSS_FILE/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DATABASE/Database_Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DATABASE/Database_Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DATABASE/Student_Db.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/DATABASE/Student_Db.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DATAMODEL/Student_Datamodel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Datamodel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/FXML_FILE/timein.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/FXML_FILE/timein.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/GSM_MODEM/GSMConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/GSM_MODEM/GSMConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/PICTURE/LOGO.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/LOGO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/PICTURE/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/PICTURE/desert.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/desert.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/PICTURE/hair.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/hair.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/PICTURE/timein_picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/timein_picture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Vbox.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/FXML_FILE/Vbox.fxml" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Student_Db.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Student_Db.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Student_Db.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Student_Db.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="STUDENT_SCHOOL_INFORMATION: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Student_Db.db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentList_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5576">
+              <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Statistic_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_FeedBack_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_SendSms_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Statistic_Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_Messages_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Attendance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1388#1389#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_RegisterStudent_Ui.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imageView</find>
+      <find>textFiew</find>
+      <find>textFie</find>
+      <find>textfie</find>
+      <find>imageview</find>
+      <find>Hbox.h</find>
+      <find>TextField</find>
+      <find>time_v</find>
+      <find>ImageView</find>
+      <find>can'</find>
+      <find>PORT_OW</find>
+      <find>THREAD</find>
+      <find>cl</find>
+      <find>outComman</find>
+      <find>.close</find>
+      <find>outComma</find>
+      <find>cmgs</find>
+      <find>serialPort</find>
+      <find>&quot;som</find>
+      <find>SMsThread</find>
+      <find>datePick</find>
+      <find>Vbox</find>
+      <find>Feed</find>
+      <find>Vbox_C</find>
+      <find>D</find>
+      <find>Vbox_Ch</find>
+      <find>&lt;dat</find>
+      <find>Tabl</find>
+      <find>top</find>
+      <find>drop</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/Main.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1286b5dc-6bbf-4eca-8a45-ead6b1eae043/console.sql" />
+        <option value="$PROJECT_DIR$/src/SMSlib.java" />
+        <option value="$PROJECT_DIR$/src/sample/CSS_FILE/Main.css" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Vbox.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/FXML_FILE/timein.fxml" />
+        <option value="$PROJECT_DIR$/hs_err_pid2384.log" />
+        <option value="$PROJECT_DIR$/src/prawiefinal.java" />
+        <option value="$PROJECT_DIR$/src/sample/SMSClient.java" />
+        <option value="$PROJECT_DIR$/src/sample/SerialConnectionException.java" />
+        <option value="$PROJECT_DIR$/src/sample/SerialParameters.java" />
+        <option value="$PROJECT_DIR$/src/sample/Sender.java" />
+        <option value="$PROJECT_DIR$/src/sample/SerialConnection.java" />
+        <option value="$PROJECT_DIR$/src/org/jsmpp/session/SMPPSession.java" />
+        <option value="$PROJECT_DIR$/hs_err_pid1400.log" />
+        <option value="$PROJECT_DIR$/src/sample/GSMConnect.java" />
+        <option value="$PROJECT_DIR$/src/sample/DATAMODEL/Student_Datamodel.java" />
+        <option value="$PROJECT_DIR$/src/sample/DATABASE/Database_Commands.java" />
+        <option value="$PROJECT_DIR$/src/sample/GSM_MODEM/GSMConnect.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/Main.java" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/StudentList_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/RegisterStudent_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_Messages_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_FeedBack_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Statistic_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_DropStudent_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Controller.java" />
+        <option value="3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_SCHOOL_INFORMATION/index/sqlite_autoindex_STUDENT_SCHOOL_INFORMATION_1" />
+        <option value="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Datamodel.java" />
+        <option value="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/CONTROLLER_FILE/Controller.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_School_Information.java" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentAttendance_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Attendance.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3bd388bf-b03f-41fe-9078-29e62f3f1171/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/DATABASE/Database_Commands.java" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_StudentList_Controller.java" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_StudentAttendance_Controller.java" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/Main.java" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentList_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_RegisterStudent_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_SendSms_Ui.fxml" />
+        <option value="$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Statistic_Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="365" />
+    <option name="y" value="78" />
+    <option name="width" value="1024" />
+    <option name="height" value="603" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ATTENDANCE_LOGIN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ATTENDANCE_LOGIN" type="462c0819:PsiDirectoryNode" />
+              <item name="DATAMODEL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DATABASE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="STUDENT_INFORMATION" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="STUDENT_INFORMATION" type="462c0819:PsiDirectoryNode" />
+              <item name="CONTROLLER" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="STUDENT_INFORMATION" type="462c0819:PsiDirectoryNode" />
+              <item name="FXML_FILE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="RFID_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="rfid_project" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\orioque35\IdeaProjects\RFID_PROJECT\src\STUDENT_INFORMATION\FXML_FILE" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="STUDENT_INFORMATION" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\orioque35\IdeaProjects\RFID_PROJECT\src\STUDENT_INFORMATION\FXML_FILE" />
+      <recent name="C:\Users\orioque35\IdeaProjects\RFID_PROJECT\src\sample\FXML_FILE" />
+      <recent name="C:\Users\orioque35\IdeaProjects\RFID_PROJECT\src\sample\CSS_FILE" />
+      <recent name="C:\Users\orioque35\IdeaProjects\RFID_PROJECT\src\sample\Picture" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="GSMConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ATTENDANCE_LOGIN.GSM_MODEM.GSMConnect" />
+      <module name="RFID_PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ATTENDANCE_LOGIN.GSM_MODEM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STUDENT_INFORMATION.Main" />
+      <module name="RFID_PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STUDENT_INFORMATION.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ATTENDANCE_LOGIN.Main" />
+      <module name="RFID_PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ATTENDANCE_LOGIN.CONTROLLER_FILE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GSMConnect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_NON_PUBLIC,VISIBILITY_SORTER,SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1557359962320" duration="4330000" />
+      <workItem from="1557385227200" duration="911000" />
+      <workItem from="1557394200143" duration="319000" />
+      <workItem from="1557399165585" duration="869000" />
+      <workItem from="1557402075773" duration="4804000" />
+      <workItem from="1557408610647" duration="9811000" />
+      <workItem from="1557479866990" duration="18238000" />
+      <workItem from="1557501991288" duration="4409000" />
+      <workItem from="1557529844766" duration="791000" />
+      <workItem from="1557634184585" duration="4163000" />
+      <workItem from="1557638936182" duration="376000" />
+      <workItem from="1557643658985" duration="6324000" />
+      <workItem from="1557650981703" duration="956000" />
+      <workItem from="1557652031651" duration="842000" />
+      <workItem from="1557653552832" duration="606000" />
+      <workItem from="1557654280120" duration="6180000" />
+      <workItem from="1557661701478" duration="4499000" />
+      <workItem from="1557667031969" duration="4359000" />
+      <workItem from="1557672661020" duration="926000" />
+      <workItem from="1557673686382" duration="1921000" />
+      <workItem from="1557717260391" duration="252000" />
+      <workItem from="1557718051851" duration="965000" />
+      <workItem from="1557721762898" duration="1610000" />
+      <workItem from="1557760216701" duration="807000" />
+      <workItem from="1557766406701" duration="355000" />
+      <workItem from="1557785375365" duration="106000" />
+      <workItem from="1557807180795" duration="220000" />
+      <workItem from="1557810763230" duration="423000" />
+      <workItem from="1557820245797" duration="155000" />
+      <workItem from="1557843377143" duration="990000" />
+      <workItem from="1557847704341" duration="1191000" />
+      <workItem from="1557849428998" duration="1195000" />
+      <workItem from="1557935719080" duration="2911000" />
+      <workItem from="1557975110941" duration="2582000" />
+      <workItem from="1557978176803" duration="728000" />
+      <workItem from="1557979601722" duration="1493000" />
+      <workItem from="1557981595969" duration="4183000" />
+      <workItem from="1558012026430" duration="14091000" />
+      <workItem from="1558061362905" duration="3174000" />
+      <workItem from="1558110860537" duration="3413000" />
+      <workItem from="1558115452301" duration="3148000" />
+      <workItem from="1558174408864" duration="15341000" />
+      <workItem from="1558235013584" duration="6229000" />
+      <workItem from="1558246697489" duration="8696000" />
+      <workItem from="1558320547566" duration="15012000" />
+      <workItem from="1558336991717" duration="4606000" />
+      <workItem from="1558356047206" duration="735000" />
+      <workItem from="1558412687499" duration="2552000" />
+      <workItem from="1558443049209" duration="2387000" />
+      <workItem from="1558530740417" duration="2380000" />
+    </task>
+    <task id="LOCAL-00001" summary="Can't add the Gsm Connect to Ui interface">
+      <created>1558025914349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558025914349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="178767000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.30257186" />
+      <window_info id="Favorites" order="5" weight="0.32980332" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25189108" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32733223" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.23567921" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Changes" order="13" />
+      <window_info anchor="bottom" id="Profiler" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.19967267" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.11292962" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24962178" />
+      <window_info anchor="right" id="Database" order="11" weight="0.17776097" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" weight="0.2980333" />
+      <window_info id="Favorites" order="5" weight="0.32980332" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25189108" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32733223" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.41571194" />
+      <window_info anchor="bottom" id="Debug" order="6" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Changes" order="13" />
+      <window_info anchor="bottom" id="Profiler" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.19967267" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.11292962" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24962178" />
+      <window_info anchor="right" id="Database" order="11" visible="true" weight="0.17776097" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Can't add the Gsm Connect to Ui interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can't add the Gsm Connect to Ui interface" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RFID_PROJECT$Main.ic" NAME="Main Coverage Results" MODIFIED="1557399935500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sample.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hs_err_pid3008.log" />
+    <entry file="file://$PROJECT_DIR$/hs_err_pid5052.log" />
+    <entry file="jar://$USER_HOME$/Desktop/JavaStuff/RXTXcomm.jar!/gnu/io/CommPort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
+    <entry file="das://1286b5dc-6bbf-4eca-8a45-ead6b1eae043/schema/main/table/sqlite_master" />
+    <entry file="jar://C:/Program Files (x86)/java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/FXML_FILE/Vbox.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1286b5dc-6bbf-4eca-8a45-ead6b1eae043/schema/main/table/STUDENT_SCHOOL_INFORMATION_ATTENDANCE" />
+    <entry file="jar://C:/Program Files (x86)/java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/GSM_MODEM/GSMConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="202" column="29" selection-start-line="202" selection-start-column="29" selection-end-line="202" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/fadf.java" />
+    <entry file="das://1286b5dc-6bbf-4eca-8a45-ead6b1eae043/schema/main/table/STUDENT_PERSONAL_INFORMATION" />
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/hair.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/timein_picture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/PICTURE/desert.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/RegisterStudent_Ui.fxml" />
+    <entry file="das://3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_SCHOOL_INFORMATION_ATTENDANCE" />
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/CONTROLLER_FILE/timein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_SCHOOL_INFORMATION.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3bd388bf-b03f-41fe-9078-29e62f3f1171/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/CONTROLLER_FILE/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_School_Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Datamodel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_SCHOOL_INFORMATION/index/sqlite_autoindex_STUDENT_SCHOOL_INFORMATION_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_PERSONAL_INFORMATION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DATABASE/Database_Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="217" column="29" selection-start-line="217" selection-start-column="29" selection-end-line="217" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3bd388bf-b03f-41fe-9078-29e62f3f1171/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-end-line="2" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_SCHOOL_INFORMATION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3bd388bf-b03f-41fe-9078-29e62f3f1171/schema/main/table/STUDENT_SCHOOL_HISTORY_ATTENDANCE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentAttendance_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_DropStudent_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2766#2767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Feedback_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_DropStudent_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Messages_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_RegisterStudent_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_SendSms_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_StudentList_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_StudentAttendance_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_StudentList_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5576">
+          <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_Statistic_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_FeedBack_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_SendSms_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/Dashboard_Messages_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATTENDANCE_LOGIN/DATAMODEL/Student_Attendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/FXML_FILE/DashBoard_RegisterStudent_Ui.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/STUDENT_INFORMATION/CONTROLLER/DashBoard_Statistic_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RFID_PROJECT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jfoenix-9.0.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

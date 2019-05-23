@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="136.0" prefWidth="478.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <ImageView fitHeight="114.0" fitWidth="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../PICTURE/timein_picture.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <Label text="Time in : Successful">
+         <font>
+            <Font name="Arial Black" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>
